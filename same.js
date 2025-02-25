@@ -23,8 +23,8 @@ const same = (arr1, arr2) => {
 const sameFrequency = (arr1, arr2) => {
     if (arr1.length !== arr2.length) return false;
       
-  let frequencyCounter1 = {};
-  let frequencyCounter2 = {};
+  const frequencyCounter1 = {};
+  const frequencyCounter2 = {};
 
   for (let num of arr1) {
     // if (frequencyCounter1[num]) {
